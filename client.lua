@@ -29,6 +29,6 @@ exports('WiringFix', WiringFix)
 
 -- Test Command
 RegisterCommand("testwiringfix",function()
-    local success = exports["ez_wiringfix"]:WiringFix(30)
+    local success = exports["ez_electricminigame"]:WiringFix(30)
     print(success)
 end)
