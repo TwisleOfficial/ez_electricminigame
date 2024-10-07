@@ -8,7 +8,7 @@
 ## How to use
 
 ```lua
-local success = exports["ez_electricminigame"]:StartGame(30) -- 30seconds countdown
+local success = exports["ez_electricminigame"]:WiringFix(30) -- 30seconds countdown
 if success then
     -- finished on time
 else
