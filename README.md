@@ -17,4 +17,5 @@ end
 ```
 
 ## Preview Video
-[Watch video on YouTube](https://youtu.be/nk8iIre2qGc)
+[Watch video on YouTube![image](https://github.com/user-attachments/assets/dbf8a72a-d0d7-4874-b816-93b88d332394)
+](https://youtu.be/nk8iIre2qGc)
