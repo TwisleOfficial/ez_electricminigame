@@ -16,6 +16,6 @@ else
 end
 ```
 
-## Preview Video
-[Watch video on YouTube![image](https://github.com/user-attachments/assets/dbf8a72a-d0d7-4874-b816-93b88d332394)
-](https://youtu.be/nk8iIre2qGc)
+## [Preview Video](https://youtu.be/nk8iIre2qGc)
+![image](https://github.com/user-attachments/assets/68a32576-131e-4d71-b501-69160d8a618a)
+
