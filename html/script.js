@@ -18,7 +18,7 @@ window.addEventListener("message", (event) => {
     if (data.action === "startWiring") {
         if (timerInterval == null) {
             container.style.display = "flex";
-            toggleUI(data.time);
+            toggleUI(true, data.time);
         }
     }
 });
@@ -30,7 +30,7 @@ function updateTimer() {
 
     if (timerSeconds <= 0) {
         document.getElementById('timer').textContent = `END`;
-        toggleUI(false);
+        toggleUI(false, 0);
     }
     else {
         document.getElementById('timer').textContent = `${minutes}:${seconds}`;
@@ -46,7 +46,7 @@ function chooseRandomPositions() {
   }
 }
 
-function toggleUI(bool, timer = 30) {
+function toggleUI(bool, timer) {
     if (bool) {
       clearInterval(timerInterval);
       timerInterval = null;

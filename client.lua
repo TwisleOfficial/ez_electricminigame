@@ -16,6 +16,7 @@ RegisterNuiCallback('wiringfixFail', function(_, cb)
     cb('ok')
 end)
 
+---@param time number # Time in seconds
 local function WiringFix(time)
     wiringfix = promise.new()
     SetNuiFocus(true, true)
@@ -29,6 +30,6 @@ exports('WiringFix', WiringFix)
 
 -- Test Command
 RegisterCommand("testwiringfix",function()
-    local success = exports["ez_electricminigame"]:WiringFix(30)
+    local success = exports.ez_electricminigame:WiringFix(15)
     print(success)
-end)
+end, false)
